@@ -1,2 +1,2 @@
-cla-filecluster
+Trades application
 ===============
