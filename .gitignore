@@ -1,9 +1,12 @@
 *~
+*.log
+/mods
 /logs
 /target
 .gradle
 /build
 /out
+/static/htmlReports
 /intTestHomeDir
 /subprojects/*/out
 /intellij
@@ -37,3 +40,4 @@
 .idea
 *.sublime-*
 .nb-gradle
+.~*
