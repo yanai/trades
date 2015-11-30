@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.com.tikal.traders.Application;
 import com.com.tikal.traders.domain.entity.Transaction;
-import com.com.tikal.traders.service.impl.TradeService;
+import com.com.tikal.traders.service.TradeService;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = Application.class)

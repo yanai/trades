@@ -1,4 +1,4 @@
-package com.com.tikal.traders.service.impl;
+package com.com.tikal.traders.service;
 
 import java.util.List;
 import java.util.Set;
