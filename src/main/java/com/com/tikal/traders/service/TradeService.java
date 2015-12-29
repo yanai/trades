@@ -7,6 +7,7 @@ import javax.annotation.PostConstruct;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -20,6 +21,7 @@ import com.com.tikal.traders.repository.jpa.TransactionRepository;
 import com.com.tikal.traders.repository.memory.TransactionMemoryRepository;
 
 @RestController
+@Transactional
 public class TradeService {
 	
 	
